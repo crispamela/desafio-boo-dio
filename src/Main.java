@@ -15,7 +15,7 @@ public static void main(String [] args) {
     curso1.setDescricao("descricao curso js");
     curso1.setCargaHoraria(4);
 
-    Mentoria mentoria = new Mentoria()
+    Mentoria mentoria = new Mentoria();
     mentoria.setTitulo("mentoria java");
     mentoria.setDescricao("descrição mentoria java");
     mentoria.setData(LocalDate.now());
